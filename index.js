@@ -98,7 +98,7 @@ async function run() {
   
       let deleted = await client.db('maybank2u').collection('subjects').deleteOne(
         {
-          _id: new ObjectId('660227a253e832be9be7bbd6')
+          _id: new ObjectId('665f83205cdafb5108b70983a')
         }
       )
   } finally {
